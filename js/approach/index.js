@@ -16,12 +16,9 @@
 // output: undefined
 function getPrimes(num) {
   for (let index = 2; index <= num; index += 1) {
-    console.log('INDEX IS ' + index);
     let isPrime = true;
     for (let secondIndex = 2; secondIndex < index; secondIndex += 1) {
-      console.log('secondIndex IS ' + secondIndex);
       if (index % secondIndex === 0) {
-        console.log('index is not prime ' + index);
         isPrime = false;
         break;
       }
@@ -31,6 +28,9 @@ function getPrimes(num) {
     }
   }
 }
+// console.log('INDEX IS ' + index);
+// console.log('secondIndex IS ' + secondIndex);
+// console.log('secondIndex IS ' + secondIndex);
 
 //test data
 getPrimes(10);
