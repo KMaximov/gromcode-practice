@@ -35,7 +35,7 @@ console.log('before shift ', numbersList3);
 
 // input: none
 // return: elem
-console.log(numbersList3.shift())
+console.log(numbersList3.shift());
 
 console.log('after shift ', numbersList3);
 
@@ -48,13 +48,4 @@ const unshiftRes = numbersList4.unshift(0);
 console.log(unshiftRes);
 
 console.log('after unshift ', numbersList4);
-
-const anotherNumbersList = [5, 0, 8, 10, -4, 50, 220];
-
-const bigNumbers = arr => arr.filter(el => el > 5);
-
-const evenPositions = arr => arr.filter(el => el > 5 && el % 2 === 0);
-
-console.log(bigNumbers(anotherNumbersList));
-console.log(evenPositions(anotherNumbersList));
 
