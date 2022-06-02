@@ -5,3 +5,5 @@ const App = () => {
 };
 
 export default App;
+
+// setState - мержить об"єкт
